@@ -1,0 +1,1 @@
+function toggleMenu(){const m=document.getElementById("mobileMenu");m.style.display=m.style.display==="block"?"none":"block"}document.querySelectorAll('a[href^="#"]').forEach(a=>a.addEventListener("click",()=>{const m=document.getElementById("mobileMenu");if(m)m.style.display="none"}));
